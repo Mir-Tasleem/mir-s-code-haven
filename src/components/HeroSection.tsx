@@ -5,8 +5,9 @@ import { Button } from "@/components/ui/button";
 const roles = [
   "Java Backend Developer",
   "Software Engineer",
-  "Microservices Architect",
+  "Frontend Developer",
   "Cloud Enthusiast",
+  "AI Enthusiast"
 ];
 
 const HeroSection = () => {
@@ -105,7 +106,7 @@ const HeroSection = () => {
             {/* Social Links */}
             <div className="flex gap-4 justify-center lg:justify-start mt-8 animate-fade-up delay-500">
               <a
-                href="https://github.com/MirTasleem"
+                href="https://github.com/Mir-Tasleem"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 rounded-full border border-border/50 bg-secondary/30 hover:bg-primary/20 hover:border-primary/50 transition-all duration-300 hover:scale-110"
@@ -113,7 +114,7 @@ const HeroSection = () => {
                 <Github className="w-5 h-5 text-muted-foreground hover:text-primary" />
               </a>
               <a
-                href="https://linkedin.com/in/mir-tasleem"
+                href="https://www.linkedin.com/in/mir-tasleem/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 rounded-full border border-border/50 bg-secondary/30 hover:bg-primary/20 hover:border-primary/50 transition-all duration-300 hover:scale-110"

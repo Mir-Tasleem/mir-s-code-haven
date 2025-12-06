@@ -131,10 +131,12 @@ const Navbar = () => {
                 {link.name}
               </a>
             ))}
+            <a href="https://drive.google.com/file/d/1AjdYfTPATS1K0ENgKpgPpMMhNRw_tENF/view?usp=sharing">
             <Button variant="outline" size="sm" className="w-fit gap-2 mt-2">
               <Download className="w-4 h-4" />
               Resume
             </Button>
+            </a>
           </div>
         </div>
       </div>
